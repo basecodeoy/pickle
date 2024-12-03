@@ -1,0 +1,96 @@
+parameters:
+	ignoreErrors:
+		-
+			message: "#^Cannot call method in\\(\\) on iterable\\<SplFileInfo\\>\\.$#"
+			count: 1
+			path: .php-cs-fixer.php
+
+		-
+			message: "#^Cannot cast mixed to string\\.$#"
+			count: 1
+			path: src/Values/JSON.php
+
+		-
+			message: "#^Method BaseCodeOy\\\\Pickle\\\\Values\\\\JSON\\:\\:__construct\\(\\) has parameter \\$decoded with no value type specified in iterable type array\\.$#"
+			count: 1
+			path: src/Values/JSON.php
+
+		-
+			message: "#^Method BaseCodeOy\\\\Pickle\\\\Values\\\\JSON\\:\\:dataCastUsing\\(\\) has parameter \\$arguments with no value type specified in iterable type array\\.$#"
+			count: 1
+			path: src/Values/JSON.php
+
+		-
+			message: "#^Method BaseCodeOy\\\\Pickle\\\\Values\\\\JSON\\:\\:decode\\(\\) return type has no value type specified in iterable type array\\.$#"
+			count: 1
+			path: src/Values/JSON.php
+
+		-
+			message: "#^Method class@anonymous/src/Values/JSON\\.php\\:49\\:\\:cast\\(\\) has parameter \\$creationContext with generic class Spatie\\\\LaravelData\\\\Support\\\\Creation\\\\CreationContext but does not specify its types\\: TData$#"
+			count: 1
+			path: src/Values/JSON.php
+
+		-
+			message: "#^Cannot cast mixed to string\\.$#"
+			count: 1
+			path: src/Values/XML.php
+
+		-
+			message: "#^Method BaseCodeOy\\\\Pickle\\\\Values\\\\XML\\:\\:__construct\\(\\) has parameter \\$decoded with no value type specified in iterable type array\\.$#"
+			count: 1
+			path: src/Values/XML.php
+
+		-
+			message: "#^Method BaseCodeOy\\\\Pickle\\\\Values\\\\XML\\:\\:dataCastUsing\\(\\) has parameter \\$arguments with no value type specified in iterable type array\\.$#"
+			count: 1
+			path: src/Values/XML.php
+
+		-
+			message: "#^Method class@anonymous/src/Values/XML\\.php\\:50\\:\\:cast\\(\\) has parameter \\$creationContext with generic class Spatie\\\\LaravelData\\\\Support\\\\Creation\\\\CreationContext but does not specify its types\\: TData$#"
+			count: 1
+			path: src/Values/XML.php
+
+		-
+			message: "#^Cannot cast mixed to string\\.$#"
+			count: 1
+			path: src/Values/YAML.php
+
+		-
+			message: "#^Method BaseCodeOy\\\\Pickle\\\\Values\\\\YAML\\:\\:__construct\\(\\) has parameter \\$decoded with no value type specified in iterable type array\\.$#"
+			count: 1
+			path: src/Values/YAML.php
+
+		-
+			message: "#^Method BaseCodeOy\\\\Pickle\\\\Values\\\\YAML\\:\\:dataCastUsing\\(\\) has parameter \\$arguments with no value type specified in iterable type array\\.$#"
+			count: 1
+			path: src/Values/YAML.php
+
+		-
+			message: "#^Method class@anonymous/src/Values/YAML\\.php\\:51\\:\\:cast\\(\\) has parameter \\$creationContext with generic class Spatie\\\\LaravelData\\\\Support\\\\Creation\\\\CreationContext but does not specify its types\\: TData$#"
+			count: 1
+			path: src/Values/YAML.php
+
+		-
+			message: "#^Call to an undefined method Pest\\\\PendingCalls\\\\TestCall\\:\\:expect\\(\\)\\.$#"
+			count: 1
+			path: tests/ArchTest.php
+
+		-
+			message: "#^Access to an undefined property Illuminate\\\\Foundation\\\\Application\\:\\:\\$config\\.$#"
+			count: 6
+			path: tests/TestCase.php
+
+		-
+			message: "#^Parameter \\#1 \\$app \\(Illuminate\\\\Application\\) of method Tests\\\\TestCase\\:\\:getPackageProviders\\(\\) should be contravariant with parameter \\$app \\(Illuminate\\\\Foundation\\\\Application\\) of method Orchestra\\\\Testbench\\\\TestCase\\:\\:getPackageProviders\\(\\)$#"
+			count: 1
+			path: tests/TestCase.php
+
+		-
+			message: "#^Parameter \\#1 \\$path of method Illuminate\\\\Foundation\\\\Application\\:\\:useStoragePath\\(\\) expects string, string\\|false given\\.$#"
+			count: 1
+			path: tests/TestCase.php
+
+		-
+			message: "#^Parameter \\$app of method Tests\\\\TestCase\\:\\:getPackageProviders\\(\\) has invalid type Illuminate\\\\Application\\.$#"
+			count: 1
+			path: tests/TestCase.php
